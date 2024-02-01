@@ -1,0 +1,7 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"BacktraceOnCrashpad": "UE4Editor-BacktraceOnCrashpad.dll"
+	}
+}

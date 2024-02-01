@@ -21,7 +21,6 @@
 			"Type": "Runtime",
 			"LoadingPhase": "PostConfigInit",
 			"WhitelistPlatforms": [
-				"WinGDK"
 			]
 		}
 	]
