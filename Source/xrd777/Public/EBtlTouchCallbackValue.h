@@ -1,0 +1,42 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EBtlTouchCallbackValue.generated.h"
+
+UENUM(BlueprintType)
+enum class EBtlTouchCallbackValue : uint8 {
+    TOP_ATTACK_TEXT,
+    TOP_ATTACK_KEY,
+    TOP_GUARD_TEXT,
+    TOP_GUARD_KEY,
+    TOP_ITEM_TEXT,
+    TOP_ITEM_KEY,
+    TOP_SKILL_TEXT,
+    TOP_SKILL_KEY,
+    TOP_THEURGIA_TEXT,
+    TOP_THEURGIA_KEY,
+    TOP_SHIFT_TEXT,
+    TOP_SHIFT_KEY,
+    TOP_ORACLE_TEXT,
+    TOP_ORACLE_KEY,
+    PROMISE_CANCEL_TEXT,
+    PROMISE_CANCEL_KEY,
+    PROMISE_GO_TEXT,
+    PROMISE_GO_KEY,
+    GUARD_NO_TEXT,
+    GUARD_NO_KEY,
+    GUARD_YES_TEXT,
+    GUARD_YES_KEY,
+    RUSH_STOP_TEXT,
+    RUSH_STOP_KEY,
+    SKILL_L_TEXT,
+    SKILL_R_TEXT,
+    ANALYZE_HIGH_ANALYZE_KEY,
+    ANALYZE_L_TEXT,
+    ANALYZE_R_TEXT,
+    THEURGIA_ARROW_L,
+    THEURGIA_ARROW_R,
+    THEURGIA_SELECT,
+    LIST_SCROLL_BAR = 0x64,
+    LIST_SCROLL_SLIDER,
+};
+

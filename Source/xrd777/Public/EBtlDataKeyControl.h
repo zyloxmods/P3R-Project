@@ -1,0 +1,18 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EBtlDataKeyControl.generated.h"
+
+UENUM(BlueprintType)
+enum class EBtlDataKeyControl : uint8 {
+    BTL_DATA_KEYCONTROL_ATTACK,
+    BTL_DATA_KEYCONTROL_GUARD,
+    BTL_DATA_KEYCONTROL_PERSONA,
+    BTL_DATA_KEYCONTROL_ITEM = 0x4,
+    BTL_DATA_KEYCONTROL_SHIFT = 0x4,
+    BTL_DATA_KEYCONTROL_ANALYZE = 0x4,
+    BTL_DATA_KEYCONTROL_STRATEGY = 0x4,
+    BTL_DATA_KEYCONTROL_ASSIST = 0x4,
+    BTL_DATA_KEYCONTROL_RUSH = 0x4,
+    BTL_DATA_KEYCONTROL_MAX UMETA(Hidden),
+};
+

@@ -1,0 +1,41 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EBtlFormationCategoryType.generated.h"
+
+UENUM(BlueprintType)
+enum class EBtlFormationCategoryType : uint8 {
+    CATEGORY_S,
+    CATEGORY_M,
+    CATEGORY_L,
+    CATEGORY_SS,
+    CATEGORY_MS,
+    CATEGORY_MM,
+    CATEGORY_LS,
+    CATEGORY_LM,
+    CATEGORY_LL,
+    CATEGORY_SSS,
+    CATEGORY_MSS,
+    CATEGORY_MMS,
+    CATEGORY_MMM,
+    CATEGORY_LSS,
+    CATEGORY_LMS,
+    CATEGORY_LMM,
+    CATEGORY_LLS,
+    CATEGORY_LLM,
+    CATEGORY_LLL,
+    CATEGORY_SSSS,
+    CATEGORY_MSSS,
+    CATEGORY_MMSS,
+    CATEGORY_MMMS,
+    CATEGORY_LMSS,
+    CATEGORY_LMMS,
+    CATEGORY_LLSS,
+    CATEGORY_MMMM,
+    CATEGORY_SSSSS,
+    CATEGORY_MSSSS,
+    CATEGORY_MMSSS,
+    CATEGORY_LSSSS,
+    CATEGORY_MMMMM,
+    CATEGORY_MAX UMETA(Hidden),
+};
+

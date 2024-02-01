@@ -1,0 +1,20 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EUICmmRankUpSE.generated.h"
+
+UENUM(BlueprintType)
+enum class EUICmmRankUpSE : uint8 {
+    UI_CMM_SE_CARD_SET,
+    UI_CMM_SE_CARD_ROTETION,
+    UI_CMM_SE_RANKUP_FALL,
+    UI_CMM_SE_RANKUP_INSTRING,
+    UI_CMM_SE_RANKUP_MAXSTAR,
+    UI_CMM_SE_RANKUP_INSTAR,
+    UI_CMM_SE_REVERSE_FALL,
+    UI_CMM_SE_REVERSE_BGCHANGE,
+    UI_CMM_SE_REVERSE_INSTRING,
+    UI_CMM_SE_REVERSE_ROTATION,
+    UI_CMM_SE_RECOVERY_ROTATION,
+    UI_CMM_SE_MAX UMETA(Hidden),
+};
+
